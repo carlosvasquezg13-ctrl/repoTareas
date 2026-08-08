@@ -4,8 +4,8 @@ const rl=readline.createInterface({
     output:process.stdout
 })
 rl.question ("Indique el nombre de el producto",function(nombre){
-    rl.question("¿Cauntos productos desea comprar?",function(cantidad){
-        rl.question("¿Cual es su precion por unidad?",function(precio){
+    rl.question("¿Cuantos productos desea comprar?",function(cantidad){
+        rl.question("¿Cual es su precio por unidad?",function(precio){
             cantidad=Number(cantidad)
             precio=Number(precio)
             const totalP=(precio*cantidad)
